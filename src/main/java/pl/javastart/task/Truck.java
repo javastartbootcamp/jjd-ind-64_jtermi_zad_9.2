@@ -4,13 +4,6 @@ public class Truck extends Car {
 
     double loadWeight;
 
-    public Truck() {
-    }
-
-    public Truck(double loadWeight) {
-        this.loadWeight = loadWeight;
-    }
-
     public Truck(String name, double tankVolume, double averageConsumption, boolean airConditionOn, double loadWeight) {
         super(name, tankVolume, averageConsumption, airConditionOn);
         this.loadWeight = loadWeight;

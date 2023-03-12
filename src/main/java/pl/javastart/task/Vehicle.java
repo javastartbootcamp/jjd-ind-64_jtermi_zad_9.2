@@ -6,9 +6,6 @@ public class Vehicle {
     double tankVolume;
     double averageConsumption;
 
-    public Vehicle() {
-    }
-
     public Vehicle(String name, double tankVolume, double averageConsumption) {
         this.name = name;
         this.tankVolume = tankVolume;
@@ -20,7 +17,7 @@ public class Vehicle {
     }
 
     public void setAironditionOn() {
-        System.out.println("Metoda nie została nadpisana");;
+        System.out.println("Metoda nie została nadpisana");
     }
 
     public void printInfo() {

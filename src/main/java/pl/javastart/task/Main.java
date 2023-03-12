@@ -14,15 +14,12 @@ public class Main {
         carpark.addVehicle(auto2);
         carpark.addVehicle(auto3);
         carpark.addVehicle(auto4);
-
         carpark.printAllCars();
 
         auto1.setAironditionOn();
         auto2.setAironditionOn();
         auto3.setAironditionOn();
         auto4.setAironditionOn();
-
         carpark.printAllCars();
-
     }
 }

@@ -4,9 +4,6 @@ public class Car extends Vehicle {
 
     boolean airConditionOn;
 
-    public Car() {
-    }
-
     public Car(String name, double tankVolume, double averageConsumption, boolean airConditionOn) {
         super(name, tankVolume, averageConsumption);
         this.airConditionOn = airConditionOn;
